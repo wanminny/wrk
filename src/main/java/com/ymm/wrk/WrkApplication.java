@@ -1,0 +1,13 @@
+package com.ymm.wrk;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WrkApplication {
+
+    public static void main(String[] args)
+    {
+        SpringApplication.run(WrkApplication.class, args);
+    }
+}
