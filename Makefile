@@ -6,8 +6,11 @@ NAMESPACE=default
 K8S_DEPLOYMENT_FILE=deploy.yaml
 
 # 编译应用
+# package命令会编译项目、运行单元测试并打包，但不会将打包文件部署到Maven仓库。
+# install命令会在执行package的基础上将打包文件部署到本地Maven仓库，但不会部署到远程仓库
+# deploy命令会完成编译、单元测试、打包并将打包文件同时部署到本地和远程Maven仓库。
 build:
-	mvn clean package
+	mvn clean deploy
 
 # 构建 Docker 镜像
 docker-build:
