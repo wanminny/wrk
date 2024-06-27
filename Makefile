@@ -1,9 +1,9 @@
 # 定义变量
 APP_NAME=wrk
 VERSION=0.0.1
-DOCKER_REGISTRY=10.200.82.51
+DOCKER_REGISTRY=10.200.82.51/k8s
 NAMESPACE=default
-K8S_DEPLOYMENT_FILE=k8s-deployment.yaml
+K8S_DEPLOYMENT_FILE=deploy.yaml
 
 # 编译应用
 build:

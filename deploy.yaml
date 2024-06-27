@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: wrk
-          image: 10.200.82.51/wrk:0.0.1
+          image: 10.200.82.51/k8s/wrk:0.0.1
           ports:
             - containerPort: 8080
 ---
