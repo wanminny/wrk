@@ -47,6 +47,7 @@
         </plugins>
     </build>
 
+    <!--  部署到私服的配置  -->
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
